@@ -12,8 +12,8 @@ Alfred App Workflow for transform `<lowerCamelCase<--->upperSnakeCase>`  `lowerC
 1. [Alfred App v4](http://www.alfredapp.com/#download)
 
 ## Download
-- [lowerCamelCase<--->upperSnakeCase v1.1.0](https://raw.githubusercontent.com/lilywang711/alfred-workflow-transform/master/src/camelCase2CAMEL_CASE/camelCase%3C---%3ECAMEL_CASE.alfredworkflow)
-- [lowerCamelCase<--->kebab-case v1.1.0](https://raw.githubusercontent.com/lilywang711/alfred-workflow-transform/master/src/camelCase2kebab-case/camelCase%3C---%3Ekebab-case.alfredworkflow)
+- [lowerCamelCase<--->upperSnakeCase v1.1.0](https://raw.githubusercontent.com/lilywang711/alfred-workflow-transform/master/src/lowerCamelCase2upperSnakeCase/lowerCamelCase%3C---%3EupperSnakeCase.alfredworkflow)
+- [lowerCamelCase<--->kebab-case v1.1.0](https://raw.githubusercontent.com/lilywang711/alfred-workflow-transform/master/src/lowerCamelCase2kebabCase/lowerCamelCase%3C---%3Ekebab-case.alfredworkflow)
 
 ## Installing
 1. Click the download buttons above
