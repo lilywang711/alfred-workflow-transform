@@ -2,7 +2,7 @@ alfred-workflow-transform
 =====================
 
 ## About
-Alfred App Workflow for transform `<lowerCamelCase<--->upperSnakeCase>`  `lowerCamelCase<--->kebab-case`  mutually
+Alfred App Workflow for transform `<lowerCamelCase<--->upperSnakeCase>`  `lowerCamelCase<--->kebabCase`  mutually
 
 ![lowerCamelCase<--->upperSnakeCase](./screenshot/lowerCamelCase2upperSnakeCase.png)
 
@@ -12,8 +12,8 @@ Alfred App Workflow for transform `<lowerCamelCase<--->upperSnakeCase>`  `lowerC
 1. [Alfred App v4](http://www.alfredapp.com/#download)
 
 ## Download
-- [lowerCamelCase<--->upperSnakeCase v1.1.0](https://raw.githubusercontent.com/lilywang711/alfred-workflow-transform/master/src/lowerCamelCase2upperSnakeCase/lowerCamelCase%3C---%3EupperSnakeCase.alfredworkflow)
-- [lowerCamelCase<--->kebab-case v1.1.0](https://raw.githubusercontent.com/lilywang711/alfred-workflow-transform/master/src/lowerCamelCase2kebabCase/lowerCamelCase%3C---%3Ekebab-case.alfredworkflow)
+- [lowerCamelCase<--->upperSnakeCase v1.1.1](https://raw.githubusercontent.com/lilywang711/alfred-workflow-transform/master/src/lowerCamelCase2upperSnakeCase/lowerCamelCase%3C---%3EupperSnakeCase.alfredworkflow
+- [lowerCamelCase<--->kebabCase v1.1.1](https://raw.githubusercontent.com/lilywang711/alfred-workflow-transform/master/src/lowerCamelCase2kebabCase/lowerCamelCase%3C---%3EkebabCase.alfredworkflow)
 
 ## Installing
 1. Click the download buttons above
@@ -23,4 +23,4 @@ Alfred App Workflow for transform `<lowerCamelCase<--->upperSnakeCase>`  `lowerC
 ## Commands
 
 - `<lowerCamelCase<--->upperSnakeCase>` : `wxy {query}`
-- `<lowerCamelCase<--->kebab-case>` : `wl {query}`
+- `<lowerCamelCase<--->kebabCase>` : `wl {query}`
