@@ -6,10 +6,9 @@
 const [,, word] = process.argv
 if (word) {
   // 判断是否以 kebab-case 格式输入
-  console.log('test', /^[a-z]+(-[a-z]+)+$/g.test(word))
   if (/^[a-z]+(-[a-z]+)+$/g.test(word)) {
-    const reg = /-([a-z])/g
-    const result = word.replace(reg, (match, p1) => p1.toUpperCase())
+    const camelizeRE = /-(\w)/g;
+    const result = word.replace(camelizeRE, (match, p1) => p1 ? p1.toUpperCase() : '')
     console.log(JSON.stringify({
       items: [{
         title: result,
@@ -18,13 +17,11 @@ if (word) {
     }))
   } else if (/^[a-z]+([A-Z][a-z]*)+$/g.test(word)) {
     // 判断是否以 camelCase 格式输入
-    const translatedArr = word.split('').map(letter => {
-      if (letter === letter.toUpperCase()) {
-        return '-' + letter.toLowerCase()
-      }
-      return letter
-    })
-    const result = translatedArr.join('')
+    
+    const hyphenateRE = /\B([A-Z])/g;
+    const hyphenate = str => str.replace(hyphenateRE, '-$1').toLowerCase()
+    const result = hyphenate(word)
+    
     console.log(JSON.stringify({
       items: [{
         title: result,
