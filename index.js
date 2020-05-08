@@ -9,15 +9,15 @@ if (word) {
   if (/^[a-z]+([A-Z][a-z]*)+$/g.test(word)) {
     // 判断是否以 camelCase 格式输入
     const hyphenateText = hyphenate(word, 'kebab-case')
-      const SNAKE_CASEText = camelCase2SNAKE_CASE(word, 'SNAKE_CASE')
-      const snake_caseText = camelCase2snake_case(word, 'snake_case')
+    const SNAKE_CASEText = camelCase2SNAKE_CASE(word, 'SNAKE_CASE')
+    const snake_caseText = camelCase2snake_case(word, 'snake_case')
     const pascalText = pascalCase2camelCase(word, 'PascalCase')
     console.error(hyphenateText, SNAKE_CASEText, snake_caseText)
     
-      console.log(JSON.stringify({
-        items: [format(hyphenateText), format(SNAKE_CASEText), format(snake_caseText), format(pascalText)]
-      }))
-    }
+    console.log(JSON.stringify({
+      items: [format(hyphenateText), format(SNAKE_CASEText), format(snake_caseText), format(pascalText)]
+    }))
+  }
   else if (/^[a-z]+(-[a-z]+)+$/g.test(word)) {
     // 判断是否以 kebab-case 格式输入
     const hyphenateText = hyphenate(word, 'camelCase')
@@ -80,10 +80,10 @@ function pascalCase2camelCase (word, target = 'camelCase') {
   const splitArray = word.split('')
   const firstLetter =  splitArray.shift()
   if (target === 'camelCase') {
-     splitArray.unshift(firstLetter.toLowerCase())
+    splitArray.unshift(firstLetter.toLowerCase())
     return splitArray.join('')
   }
-   splitArray.unshift(firstLetter.toUpperCase())
+  splitArray.unshift(firstLetter.toUpperCase())
   return splitArray.join('')
 }
 
