@@ -1,19 +1,28 @@
-alfred-workflow-transform
+variable-format-transform workflow
 =====================
 
 ## About
-Alfred App Workflow for transform `<lowerCamelCase<--->upperSnakeCase>`  `lowerCamelCase<--->kebabCase`  mutually
+### 支持输入以下格式
+- camelCase
+   - 转 SNAKE_CASE
+   - 转 snake_case
+   - 转 kebab-case
+   - 转 PascalCase
+- SNAKE_CASE
+   - 转 snake_case
+   - 转 kebab-case
+   - 转 camelCase
+- kebab-case
+   - 转 camelCase
 
-![lowerCamelCase<--->upperSnakeCase](./screenshot/lowerCamelCase2upperSnakeCase.png)
-
-![`lowerCamelCase<--->kebab-case`](./screenshot/lowerCamelCase2kebabCase.png)
+![variable-format-transform workflow](./screenshot.png)
 
 ## Requirements
 1. [Alfred App v4](http://www.alfredapp.com/#download)
 
 ## Download
-- [lowerCamelCase<--->upperSnakeCase v1.1.1](https://raw.githubusercontent.com/lilywang711/alfred-workflow-transform/master/src/lowerCamelCase2upperSnakeCase/lowerCamelCase%3C---%3EupperSnakeCase.alfredworkflow)
-- [lowerCamelCase<--->kebabCase v1.1.1](https://raw.githubusercontent.com/lilywang711/alfred-workflow-transform/master/src/lowerCamelCase2kebabCase/lowerCamelCase%3C---%3EkebabCase.alfredworkflow)
+- [variable-format-transform-v2.0.0](https://raw.githubusercontent.com/lilywang711/alfred-workflow-transform
+/master/variable-format-transform.alfredworkflow)
 
 ## Installing
 1. Click the download buttons above
@@ -21,6 +30,7 @@ Alfred App Workflow for transform `<lowerCamelCase<--->upperSnakeCase>`  `lowerC
 3. Replace hotkey if you want
 
 ## Commands
-
-- `<lowerCamelCase<--->upperSnakeCase>` : `wxy {query}`
-- `<lowerCamelCase<--->kebabCase>` : `wl {query}`
+- `wl {query}`
+- `wl myFirstName`
+- `wl my-first-name`
+- `wl MY_FIRST_NAME`
