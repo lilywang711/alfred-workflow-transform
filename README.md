@@ -21,8 +21,7 @@ variable-format-transform workflow
 1. [Alfred App v4](http://www.alfredapp.com/#download)
 
 ## Download
-- [variable-format-transform-v2.0.0](https://raw.githubusercontent.com/lilywang711/alfred-workflow-transform
-/master/variable-format-transform.alfredworkflow)
+- [variable-format-transform-v2.0.0](https://raw.githubusercontent.com/lilywang711/alfred-workflow-transform/master/variable-format-transform.alfredworkflow)
 
 ## Installing
 1. Click the download buttons above
