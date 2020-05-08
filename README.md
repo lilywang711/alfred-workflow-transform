@@ -2,18 +2,18 @@ variable-format-transform workflow
 =====================
 
 ## About
-### 支持输入以下格式
+### The following formats are supported
 - camelCase
-   - 转 SNAKE_CASE
-   - 转 snake_case
-   - 转 kebab-case
-   - 转 PascalCase
+   - to SNAKE_CASE
+   - to snake_case
+   - to kebab-case
+   - to PascalCase
 - SNAKE_CASE
-   - 转 snake_case
-   - 转 kebab-case
-   - 转 camelCase
+   - to snake_case
+   - to kebab-case
+   - to camelCase
 - kebab-case
-   - 转 camelCase
+   - to camelCase
 
 ![variable-format-transform workflow](./screenshot.png)
 
