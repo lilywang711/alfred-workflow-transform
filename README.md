@@ -16,7 +16,6 @@ variable-format-transform workflow
    - to camelCase
 
 ![variable-format-transform workflow](./screenshot.png)
-
 ## Requirements
 1. [Alfred App v4](http://www.alfredapp.com/#download)
 
